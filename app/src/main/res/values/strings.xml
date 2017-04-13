@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EmitsQuizzApp</string>
+    <string name="title">Emits Daily Activities</string>
+
+    <string name="question1">1.	What is the first thing to do when waking up in the morning?</string>
+    <string name="answer1on1">Hug mom and dad.</string>
+    <string name="answer2on1">Eat breakfast.</string>
+    <string name="answer3on1">Go to the potty.</string>
+
+    <string name="question2">2.	Is there anything particular to do after eating the breakfast?</string>
+    <string name="answer1on2">Brush teeth and get dressed for the kindergarten.</string>
+    <string name="answer2on2">Watch series of a cartoon.</string>
+    <string name="answer3on2">Yell that I don’t want to go to the kindergarten.</string>
+
+    <string name="question3">3.	What is the daily plan at kindergarten?</string>
+    <string name="answer1on3">Play around and learn new stuff with other cool kids, be nice and follow the daily schedule.</string>
+    <string name="answer2on3">Entering the kindergarten tell that I want to go home and by the end of the day tell that I don’t want to go home.</string>
+    <string name="answer3on3">Watch series of cartoon.</string>
+
+    <string name="question4">4.	What should I do with mom and dad after going home from the kindergarten?</string>
+    <string name="answer1on4">Go to the beach and watch ships sailing away and ride a bike to the station to watch trains passing by.</string>
+    <string name="answer2on4">Get some bite for the dinner and watch cartoon series.</string>
+    <string name="answer3on4">Both.</string>
+
+    <string name="question5">5.	What is the ritual before going to sleep?</string>
+    <string name="answer1on5">Watch series of a cartoon and claim that I don’t want to sleep. </string>
+    <string name="answer2on5">Get washed, brush teeth, read a book and give a good night hug to mum and dad.</string>
+    <string name="answer3on5">Start feeling hungry and thirsty.</string>
+
+    <string name="reward1">(Correct answer - 1pcs carrot stick)</string>
+    <string name="reward2">(Correct answer - 1pcs carrot stick)</string>
+    <string name="reward3">(Correct answer - 1pcs carrot stick)</string>
+    <string name="reward4">(Correct answer - 1pcs carrot stick)</string>
+    <string name="reward5">(Correct answer - 1pcs carrot stick)</string>
+
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+
+</resources>

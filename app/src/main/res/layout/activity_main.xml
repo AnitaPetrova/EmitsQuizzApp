@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.emitsquizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:id="@+id/title"
+                style="@style/Image"
+                android:src="@drawable/title" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/question_one"
+                style="@style/QuestionText"
+                android:text="@string/question1" />
+
+            <TextView
+                android:id="@+id/reward_one"
+                style="@style/RewardText"
+                android:text="@string/reward1" />
+
+            <ImageView
+                android:id="@+id/question1_image"
+                style="@style/Image"
+                android:src="@drawable/question1" />
+
+            <RadioGroup
+                android:id="@+id/group_Q1"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_answer_one_on_one"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer1on1" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_two_on_one"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer2on1" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_three_on_one"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer3on1" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/question_two"
+                style="@style/QuestionText"
+                android:text="@string/question2" />
+
+            <TextView
+                android:id="@+id/reward_two"
+                style="@style/RewardText"
+                android:text="@string/reward2" />
+
+            <ImageView
+                android:id="@+id/question2_image"
+                style="@style/Image"
+                android:src="@drawable/question2" />
+
+            <RadioGroup
+                android:id="@+id/group_Q2"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_answer_one_on_two"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer1on2" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_two_on_two"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer2on2" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_three_on_two"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer3on2" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/question_three"
+                style="@style/QuestionText"
+                android:text="@string/question3" />
+
+            <TextView
+                android:id="@+id/reward_three"
+                style="@style/RewardText"
+                android:text="@string/reward3" />
+
+            <ImageView
+                android:id="@+id/question3_image"
+                style="@style/Image"
+                android:src="@drawable/question3" />
+
+            <RadioGroup
+                android:id="@+id/group_Q3"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_answer_one_on_three"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer1on3" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_two_on_three"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer2on3" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_three_on_three"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer3on3" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/question_four"
+                style="@style/QuestionText"
+                android:text="@string/question4" />
+
+            <TextView
+                android:id="@+id/reward_four"
+                style="@style/RewardText"
+                android:text="@string/reward4" />
+
+            <ImageView
+                android:id="@+id/question4_image"
+                style="@style/Image"
+                android:src="@drawable/question4" />
+
+            <RadioGroup
+                android:id="@+id/group_Q4"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_answer_one_on_four"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer1on4" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_two_on_four"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer2on4" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_three_on_four"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer3on4" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/question_five"
+                style="@style/QuestionText"
+                android:text="@string/question5" />
+
+            <TextView
+                android:id="@+id/reward_five"
+                style="@style/RewardText"
+                android:text="@string/reward5" />
+
+            <ImageView
+                android:id="@+id/question5_image"
+                style="@style/Image"
+                android:src="@drawable/question5" />
+
+            <RadioGroup
+                android:id="@+id/group_Q5"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_answer_one_on_five"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer1on5" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_two_on_five"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer2on5" />
+
+                <RadioButton
+                    android:id="@+id/radio_answer_three_on_five"
+                    style="@style/RadioButton"
+                    android:buttonTint="#CDDC39"
+                    android:text="@string/answer3on5" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_submit"
+                style="@style/SubmitAnswers"
+                android:onClick="submitAnswers"
+                android:text="@string/submit"></Button>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
